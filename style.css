@@ -19,6 +19,7 @@ header{
     padding: 32px;
     position: fixed;
     width: 100vw;
+    z-index: 999999;
 }
 
 header nav ul{
@@ -30,6 +31,7 @@ header nav a{
     color: white;
     padding: 8px;
     transition: 1s;
+    margin-top: 0;
 }
 
 header nav a:hover {
@@ -131,6 +133,7 @@ header nav a:hover {
     z-index: 0;
     width: 100%;
     text-align: center;
+
     
 }
 
@@ -186,3 +189,13 @@ header nav a:hover {
     width: 100%;
     text-align: center;
 }
+
+#rael img{
+    align-items: center;
+    width: 7vh;
+    transform: translate(500%, -50%); 
+    height: auto;
+    margin-left: 30%;
+    
+}
+
